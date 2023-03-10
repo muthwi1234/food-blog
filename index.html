@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Food Blog</title>
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My Food Blog</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#recipes">Recipes</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section id="about">
+		<h2>About Me</h2>
+		<p>Hi there! My name is Jane and I love to cook. This blog is where I share my favorite recipes, cooking tips, and food-related musings.</p>
+	</section>
+	
+	<section id="recipes">
+		<h2>Recipes</h2>
+		<div class="recipe">
+			<h3>Spaghetti Carbonara</h3>
+			<p>This classic Italian dish is a favorite in my household. It's creamy, flavorful, and oh-so-satisfying.</p>
+			<ul>
+				<li>1 pound spaghetti</li>
+				<li>4 large eggs</li>
+				<li>1 cup grated Parmesan cheese</li>
+				<li>8 ounces bacon, diced</li>
+				<li>4 cloves garlic, minced</li>
+				<li>Salt and pepper to taste</li>
+			</ul>
+			<button class="recipe-button">Get Recipe</button>
+		</div>
+		
+		<div class="recipe">
+			<h3>Chicken Curry</h3>
+			<p>This Indian-inspired dish is full of flavor and perfect for a cozy night in.</p>
+			<ul>
+				<li>2 tablespoons vegetable oil</li>
+				<li>1 onion, chopped</li>
+				<li>2 cloves garlic, minced</li>
+				<li>1 tablespoon curry powder</li>
+				<li>1 teaspoon ground ginger</li>
+				<li>1 teaspoon ground cumin</li>
+				<li>1/2 teaspoon ground cinnamon</li>
+				<li>1/4 teaspoon cayenne pepper</li>
+				<li>1 pound boneless, skinless chicken breasts, cut into bite-size pieces</li>
+				<li>1 can (14.5 ounces) diced tomatoes</li>
+				<li>1 can (13.5 ounces) coconut milk</li>
+				<li>Salt and pepper to taste</li>
+			</ul>
+			<button class="recipe-button">Get Recipe</button>
+		</div>
+	</section>
+	
+	<section id="contact">
+		<h2>Contact Me</h2>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			
+			<button type="submit">Send Message</button>
+		</form>
+	</section>
+	
+	<footer>
+		<p>&copy; 2023 My Food Blog. All rights reserved.</p>
+	</footer>
+	
+	<script src="script.js"></script>
+</body>
